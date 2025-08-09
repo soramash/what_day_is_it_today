@@ -1,0 +1,17 @@
+{
+  "name": "what-day-is-it-today",
+  "version": "1.0.0",
+  "description": "今日は何の日をSlackに投稿するGoogle Apps Script",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "push": "clasp push",
+    "deploy": "clasp deploy"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.83",
+    "typescript": "^5.0.0"
+  },
+  "license": "MIT"
+}
